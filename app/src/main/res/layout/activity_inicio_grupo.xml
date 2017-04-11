@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_inicio_sesion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.cecyt9.memorynow.InicioGrupo"
+    android:background="@drawable/tab">
+
+    <TextView
+        android:text="Selecciona tu grupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:id="@+id/textView4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_below="@+id/textView4"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="48dp"
+        android:layout_toLeftOf="@+id/textView4"
+        android:layout_toStartOf="@+id/textView4"
+        android:onClick="siguienteA"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/manza" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_alignBottom="@+id/imageButton2"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/imageButton2"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:onClick="siguienteA"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/fotogrupo3" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_alignBottom="@+id/imageButton"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_toRightOf="@+id/textView4"
+        android:onClick="siguienteA"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/fotogrupo4" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_alignLeft="@+id/imageButton2"
+        android:layout_alignStart="@+id/imageButton2"
+        android:layout_centerVertical="true"
+        android:onClick="siguienteA"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/platanito" />
+
+</RelativeLayout>
